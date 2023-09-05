@@ -1,0 +1,107 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 54px;
+  color: #3f5a7d; }
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem; } }
+
+h1, h2, h3, h4, h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #064fad; }
+
+h1 {
+  font-size: 5.5rem;
+  line-height: 4rem; }
+
+h2 {
+  font-size: 3rem; }
+
+h3 {
+  font-size: 1.75rem; }
+
+h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #2e406e; }
+
+p.h7 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2e406e; }
+
+p.lead {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #3f5a7d; }
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem; }
+
+h1 .text-primary {
+  color: #2e406e !important; }
+
+.list-social-icons a {
+  color: #3f5a7d; }
+.list-social-icons a:hover {
+  color: #064fad; }
+.list-social-icons a .fa-lg {
+  font-size: 1.75rem; }
+
+.list-icons {
+  font-size: 3rem; }
+.list-icons .list-inline-item i:hover {
+  color: #064fad; }
+
+/* ... The middle part of the CSS is mostly about positions and sizes, so we don't need to change anything ... */
+
+.fg-theme {
+  color: #064fad !important; }
+
+/* ... Again, the next part is about positions and styles, not colors... */
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase; }
+
+#sideNav .navbar-toggler:focus {
+  outline-color: #064fad; }
+
+@media (min-width: 992px) {
+  /* ... This part doesn't seem to have any color attributes ... */
+}
+
+section.resume-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important; }
+section.resume-section .resume-item .resume-date {
+  min-width: none; }
+
+@media (min-width: 768px) {
+  /* ... This part doesn't seem to have any color attributes ... */
+}
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important; } }
+
+.bg-primary {
+  background-color: #064fad !important; }
+
+.text-primary {
+  color: #064fad !important; }
+
+a {
+  color: #064fad; }
+a:hover, a:focus, a:active {
+  color: #02358a; }
